@@ -8,7 +8,7 @@
 
 ```java
 <1.2.4   shiro550
-<1.4.2   shiro721 https://cloud.tencent.com/developer/article/1944738 需要成功登录
+<1.4.2   shiro721 https://cloud.tencent.com/developer/article/1944738 需要成功登录(目前还没有添加
 >1.4.2   换加密方法 aes cmg
 ```
 
@@ -29,7 +29,7 @@ java -jar ScanShiro.jar -p payload.ser -c kPH+bIxk5D2deZiIxcaaaA==
 -proxy 参数是代理 目前只支持socks5代理并且没有用户名密码
 ```
 
-**说明:默认是先跑AES/CBC的模式如果没有跑出key就自动跑AES/GCM,并且生成payload的时候生成这两种的payload。怎么说呢工具肯定是存在误报的！！！**
+**说明:默认是先跑常规的模式如果没有跑出key就自动跑AES/GCM,并且生成payload的时候生成这两种的payload。怎么说呢工具肯定是存在误报的！！！**
 
 
 ## 问题
